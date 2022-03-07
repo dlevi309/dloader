@@ -17,9 +17,22 @@ install_name_tool -change /Library/Frameworks/CydiaSubstrate.framework/CydiaSubs
 ```
 File Hierarchy;
 
-- Payload/Reddit.app/dloader/YouTopia.dylib
-- Payload/Reddit.app/dloader.dylib
-- Payload/Reddit.app/Frameworks/CydiaSubstrate.framework
+- Payload/YouTube.app/dloader/YouTopia.dylib
+- Payload/YouTube.app/dloader.dylib
+- Payload/YouTube.app/Frameworks/CydiaSubstrate.framework
+
+or if you need to visualize it: 
+
+```bash
+Payload
+└── YouTube.app
+    ├── Frameworks
+    │   └── CydiaSubstrate.framework
+    ├── YouTube
+    ├── dloader
+    │   └── YouTopia.dylib
+    └── dloader.dylib
+```
 
 ## Building
 Just invoke `make` (requires that you have [theos](https://github.com/theos/theos/wiki/Installation) installed on your machine)
