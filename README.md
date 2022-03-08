@@ -35,7 +35,7 @@ Payload
 ```
 
 ## Building
-Just invoke `make` (requires that you have [theos](https://github.com/theos/theos/wiki/Installation) installed on your machine)
+Just invoke `make` ~~(requires that you have [theos](https://github.com/theos/theos/wiki/Installation) installed on your machine)~~ This is no longer a requirement, use the [without-theos](https://github.com/dlevi309/dloader/tree/without-theos) branch for an Xcode environment. 
 
 ## Credits 
 - [daniel (me)](https://twitter.com/insan1d) for dloader.m
