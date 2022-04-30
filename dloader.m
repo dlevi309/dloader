@@ -1,4 +1,6 @@
+#import <Foundation/Foundation.h>
 #import <dlfcn.h>
+
 #include <mach-o/dyld.h>
 
 extern const char *__progname;
